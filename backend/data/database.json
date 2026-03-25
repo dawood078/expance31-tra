@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "_id": "1765878880456",
+      "name": "Test User",
+      "email": "debug_1765878880289@test.com",
+      "password": "$2a$10$YFVyBQePXzBeaZUDfs4.qujWfK8eumZItdTBHB2jHJFhBqKSS.NEe",
+      "createdAt": "2025-12-16T09:54:40.456Z"
+    },
+    {
+      "_id": "1765878969413",
+      "name": "dawood",
+      "email": "da3301370@gmail.com",
+      "password": "$2a$10$iYURTzoJHT/VROJ2sUC6LunA6XcIIgOAMaEq2rNkL52TGTjkoM08q",
+      "createdAt": "2025-12-16T09:56:09.413Z"
+    }
+  ],
+  "incomes": [],
+  "expenses": []
+}
