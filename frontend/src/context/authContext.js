@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
     const [token, setToken] = useState(localStorage.getItem('token'));
     const [error, setError] = useState(null);
 
-    const BASE_URL = "http://localhost:5000/api/v1/";
+    const BASE_URL = process.env.REACT_APP_BASE_URL || "https://expance31-backend.onrender.com/api/v1/";
 
     useEffect(() => {
         const checkCurrentUser = async () => {
